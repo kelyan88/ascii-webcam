@@ -13,7 +13,7 @@ def main():
     rval, frame = vc.read()
     print(toASCII(frame))
 
-    key = cv2.waitKey(40) # 40ms pause -> 25fps
+    key = cv2.waitKey(20) # 40ms pause -> 25fps
     # Press echap to end
     if key == 27:
       break
