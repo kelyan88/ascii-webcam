@@ -18,7 +18,7 @@ def main():
     if key == 27:
       break
 
-def toASCII(frame, cols = 120, rows = 35):
+def toASCII(frame, cols = 180, rows = 55):
 
   frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
   height, width = frame.shape
